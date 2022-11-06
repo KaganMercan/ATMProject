@@ -1,0 +1,25 @@
+"DATE"=28-10-22 "TIME"=23:20 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=Login failed...
+"DATE"=28-10-22 "TIME"=23:20 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=Login failed...
+"DATE"=28-10-22 "TIME"=23:21 [main] "LEVEL"=WARN "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=Too many failed login attempts. Your account has been locked.
+"DATE"=28-10-22 "TIME"=23:21 [main] "LEVEL"=WARN "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=System Error	
+Exception: 
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:943)
+	at java.base/java.util.Scanner.next(Scanner.java:1598)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2263)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2217)
+	at com.kaganmercan.airties.ATMProject.management.Options.menuScreen(Options.java:23)
+	at com.kaganmercan.airties.ATMProject.management.Login.loginChecker(Login.java:40)
+	at com.kaganmercan.airties.ATMProject.management.Account.welcomeScreen(Account.java:61)
+	at com.kaganmercan.airties.ATMProject.AtmProjectApplication.main(AtmProjectApplication.java:12)
+"DATE"=28-10-22 "TIME"=23:21 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=Login failed...
+"DATE"=28-10-22 "TIME"=23:21 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=Login failed...
+"DATE"=28-10-22 "TIME"=23:21 [main] "LEVEL"=WARN "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=Too many failed login attempts. Your account has been locked.
+"DATE"=28-10-22 "TIME"=23:22 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=Login failed...
+"DATE"=28-10-22 "TIME"=23:22 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=You deposit 4000.0$
+"DATE"=28-10-22 "TIME"=23:22 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=New balance: 9000.0$
+"DATE"=28-10-22 "TIME"=23:22 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=You withdraw 5000.0$
+"DATE"=28-10-22 "TIME"=23:22 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=New balance: 4000.0$
+"DATE"=28-10-22 "TIME"=23:22 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=Your new balance is: 1000.0$
+"DATE"=28-10-22 "TIME"=23:22 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=You send 3000.0$ to user huseyin@gmail.com
+"DATE"=28-10-22 "TIME"=23:22 [main] "LEVEL"=INFO "PATH"=c.k.a.ATMProject.management.Options "MESSAGE"=Receiver with username huseyin@gmail.com and IBAN TR3535 new balance is: 16000.0$

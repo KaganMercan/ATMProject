@@ -1,0 +1,29 @@
+<configuration>
+
+    <property name="HOME_LOG" value="/home/kagan/IdeaProjects/Airties/src/main/java/com/kaganmercan/airties/ATMProject/files/logs/atm.log"/>
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <Pattern>
+                %yellow(DATE)=%d{dd-MM-yy} %yellow(TIME)=%d{HH:mm} %green([%thread]) %highlight(LEVEL)=%highlight(%-5level) %yellow(PATH)=%yellow(%logger{36}) %red(MESSAGE)=%m%n
+            </Pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${HOME_LOG}</file>
+        <append>true</append>
+        <immediateFlush>true</immediateFlush>
+        <encoder>
+            <pattern>"DATE"=%d{dd-MM-yy} "TIME"=%d{HH:mm} [%thread] "LEVEL"=%p "PATH"=%logger{36} "MESSAGE"=%m%n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.kaganmercan.airties" level="DEBUG" additivity="false">
+        <appender-ref ref="FILE"/>
+    </logger>
+
+    <root level="error">
+        <appender-ref ref="CONSOLE"/>
+    </root>
+
+</configuration>
