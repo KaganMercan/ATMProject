@@ -1,7 +1,4 @@
-# airtiesgraduationproject-KaganMercan
-
-
-### ATMProject, Homeworks(Research/Core)
+# ATMProject-KaganMercan
 
 ## IDE
 [Intellij IDEA]
